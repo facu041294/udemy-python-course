@@ -18,5 +18,9 @@ print(type(greeting))
 print(type(age))
 
 age_in_words = "2 years"
-# print(name + " is " + age + " years old") Error adrede para mostrar que python no puede concatenar strings con integers
+print(name + f" is {age} years old") #Error adrede para mostrar que python no puede concatenar strings con integers
 print(type(age))
+
+print(f"Pi is approximately {22/7:12.50f}")  # f de float, 50 decimales, ancho 12
+pi = 22/7
+print(f"Pi is approximately {pi:12.50f}")  # f de float, 50 decimales, ancho 12
